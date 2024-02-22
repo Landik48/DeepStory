@@ -1,6 +1,5 @@
 package com.example.study
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
@@ -8,11 +7,8 @@ import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.study.databinding.SplashBinding
 
 class SplashScreen : AppCompatActivity() {
-    private lateinit var binding: SplashBinding
-    @SuppressLint("ObsoleteSdkInt", "Recycle")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.splash)
