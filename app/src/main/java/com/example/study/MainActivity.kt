@@ -1,3 +1,5 @@
+//Здесь комментариев не ждите ;)
+
 package com.example.study
 
 import android.content.Intent
